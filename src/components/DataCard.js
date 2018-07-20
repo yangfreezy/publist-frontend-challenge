@@ -37,7 +37,7 @@ const Secondary = styled.a`
 const DataCard = ({ obj }) => {
   return (
     <Card>
-      <PrimaryBold> {Math.floor(obj.score)}</PrimaryBold>
+      <PrimaryBold>{Math.floor(obj.score)}</PrimaryBold>
       <Primary href={obj.url}>{obj.title}</Primary>
       <Secondary href={obj.site.url}> - {obj.site.name} </Secondary>
     </Card>
