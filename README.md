@@ -1,1 +1,1 @@
-Publist Frontend Challenge! :)
+Front-end challenge for Publist.ai.

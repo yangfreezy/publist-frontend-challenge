@@ -5,7 +5,6 @@ const Card = styled.div`
   display: flex;
   flex-direction: row;
   padding: 2rem;
-  /* border-bottom: 0.5px solid black; */
 `;
 
 const Primary = styled.a`
@@ -16,7 +15,6 @@ const Primary = styled.a`
   padding-right: 1rem;
 
   :hover {
-    transition: all 0.2s ease-in-out 0.2s;
     text-decoration: underline;
   }
 `;
