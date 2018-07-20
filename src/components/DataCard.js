@@ -35,7 +35,6 @@ const Secondary = styled.a`
 `;
 
 const DataCard = ({ obj }) => {
-  console.log(obj);
   return (
     <Card>
       <PrimaryBold> {Math.floor(obj.score)}</PrimaryBold>
