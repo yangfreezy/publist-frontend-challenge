@@ -12,7 +12,7 @@ const Primary = styled.a`
   flex-direction: row;
   text-decoration: none;
   color: black;
-  padding-right: 1rem;
+  padding-right: 0.5rem;
 
   :hover {
     text-decoration: underline;
